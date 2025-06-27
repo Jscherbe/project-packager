@@ -1,12 +1,10 @@
-# @ulu/project-packager
-
 A lightweight Node.js module designed to automate the process of packaging your project's distribution files into unique, timestamped, and versioned ZIP archives. It's ideal for preparing builds for deployment, client delivery, or simply archiving specific versions of your project.
 
-- Automated Zipping: Compresses specified input directories into ZIP files.
-- Unique Filenames: Generates filenames with optional timestamps (YYYYMMDD) and auto-incrementing numbers to prevent overwrites.
-- Customizable Naming: Control the base name, timestamp inclusion, and incrementing behavior.
-- Overwrite Control: Option to allow or disallow overwriting of existing files.
-- Simple API: Easy to integrate into build scripts or CI/CD pipelines.
+- **Automated Zipping:** Compresses specified input directories into ZIP files.
+- **Unique Filenames:** Generates filenames with optional timestamps (YYYYMMDD) and auto-incrementing numbers to prevent overwrites.
+- **Customizable Naming:** Control the base name, timestamp inclusion, and incrementing behavior.
+- **Overwrite Control:** Option to allow or disallow overwriting of existing files.
+- **Simple API:** Easy to integrate into build scripts or CI/CD pipelines.
 
 **Related Links:**
 
