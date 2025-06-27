@@ -1,0 +1,44 @@
+{
+  "name": "@ulu/project-packager",
+  "version": "0.0.1",
+  "description": "Simple utility for zipping project distributions into date-versioned, incremented archives",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "types": "npx tsc",
+    "test": "node ./test/index.js",
+    "docs": "node_modules/.bin/jsdoc -c jsdoc.json",
+    "lint": "eslint ./lib --ext .js --ignore-path .gitignore"
+  },
+  "exports": {
+    ".": {
+      "default": "./index.js"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./types/*"
+      ]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jscherbe/project-packager.git"
+  },
+  "keywords": [
+    "archive",
+    "package",
+    "project",
+    "bundle"
+  ],
+  "author": "Joe Scherben",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jscherbe/project-packager/issues"
+  },
+  "homepage": "https://github.com/Jscherbe/project-packager#readme",
+  "dependencies": {
+    "archiver": "^7.0.1"
+  }
+}

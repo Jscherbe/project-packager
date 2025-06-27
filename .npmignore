@@ -1,0 +1,4 @@
+tsconfig.json
+.eslintrc.cjs
+test/
+jsdoc.json
