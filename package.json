@@ -8,7 +8,7 @@
     "types": "npx tsc",
     "test": "node ./test/index.js",
     "docs": "node_modules/.bin/jsdoc -c jsdoc.json",
-    "lint": "eslint ./lib --ext .js --ignore-path .gitignore"
+    "lint": "eslint ./index.js"
   },
   "exports": {
     ".": {
@@ -40,5 +40,11 @@
   "homepage": "https://github.com/Jscherbe/project-packager#readme",
   "dependencies": {
     "archiver": "^7.0.1"
+  },
+  "devDependencies": {
+    "docdash": "^2.0.2",
+    "eslint": "^8.56.0",
+    "jsdoc": "^4.0.2",
+    "typescript": "^5.3.3"
   }
 }

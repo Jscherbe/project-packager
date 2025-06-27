@@ -15,7 +15,7 @@ import { createPackage } from "../index.js";
     outputDir: "./test/dist/test-tar/",
     format: "tar"
   });
-
+  
   console.log("package (tar) done");
 
   await createPackage({
